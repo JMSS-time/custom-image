@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JMSS Time custom image</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css'>
+
+</head>
+<body class="bg-gray-900">
+<!-- partial:index.partial.html -->
+<div class="w-screen h-screen sm:flex sm:items-center bg-gray-900">
+	<div class="w-full max-w-xl mx-auto p-4">
+		<div class="bg-gray-200 p-4 rounded shadow text-xl text-gray-900">
+			<h1 class="text-4xl font-bold">
+				JMSS Time  <span class="text-4xl font-thin text-gray-900">Custom Image</span>
+			</h1>
+			
+			<p class="mb-4">
+
+			</p>
+			<label class="cursor-pointer">
+				<div class=" mb-2 bg-gray-300 w-full py-2 rounded-lg text-center hover:bg-gray-400">
+					<span>Select an image</span>
+					<input type="file" id="files" name="files" class="bg-gray-400 hidden" />
+				</div>
+				
+			</label>
+
+			<div class="text-center mb-2">
+				or
+			</div>
+			<label class="cursor-pointer mb-4">
+					
+					<input id="urlInput" placeholder="Enter a URL..." type="text" class=" mb-4 bg-gray-300 w-full py-2 rounded-lg text-center hover:bg-gray-400" />
+			</label>
+			<a id="goLink">
+				<div class=" text-center bg-red-600 hover:bg-red-700 text-white font-medium py-2 rounded-lg " id="goButton">
+					<span id="buttonText">Need more information!</span>
+				</div>
+			</a>
+			
+		</div>
+		<div class="text-center text-gray-600">
+			note: images are uploaded to an external server (imgur).
+		</div>
+	</div>
+
+	<div class="text-center text-gray-600 fixed bottom-0 left-0 right-0 p-4 text-sm ">
+		created by <a href="https://darcylf.me" class="underline">darcylf</a>
+	</div>
+	
+	
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
