@@ -1,0 +1,16 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.cool {
+    background-image:url("http://bg2.cool/patterns/random/koi-pond.png");
+    background-size: 50%;
+    background-position: center
+}
+
+h1.cool {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
