@@ -1,76 +1,127 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='stylesheet' href='./dist.css'>
-<!-- Primary Meta Tags -->
-<title>JMSS Time Custom Image</title>
-<meta name="title" content="JMSS Time Custom Image">
-<meta name="description" content="A small little website that lets you change the background image of JMSS time">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist.css" />
+    <!-- Primary Meta Tags -->
+    <title>JMSS Time Custom Image</title>
+    <meta name="title" content="JMSS Time Custom Image" />
+    <meta
+      name="description"
+      content="A small little website that lets you change the background image of JMSS time"
+    />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://metatags.io/">
-<meta property="og:title" content="JMSS Time Custom Image">
-<meta property="og:description" content="A small little website that lets you change the background image of JMSS time">
-<meta property="og:image" content="https://jmss-time.github.io/custom-image/og.png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="JMSS Time Custom Image" />
+    <meta
+      property="og:description"
+      content="A small little website that lets you change the background image of JMSS time"
+    />
+    <meta
+      property="og:image"
+      content="https://jmss-time.github.io/custom-image/og.png"
+    />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://metatags.io/">
-<meta property="twitter:title" content="JMSS Time Custom Image">
-<meta property="twitter:description" content="A small little website that lets you change the background image of JMSS time">
-<meta property="twitter:image" content="https://jmss-time.github.io/custom-image/og.png">
-</head>
-<body class="bg-gray-900">
-<!-- partial:index.partial.html -->
-<div class="w-screen h-screen sm:flex sm:items-center bg-gray-900">
-	<div class="w-full max-w-xl mx-auto p-4">
-		<div class="bg-gray-200 p-4 rounded shadow text-xl text-gray-900">
-			<h1 class="text-4xl font-bold">
-				JMSS Time  <span class="text-4xl font-thin text-gray-900">Custom Image</span>
-			</h1>
-			
-			<p class="mb-4">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="JMSS Time Custom Image" />
+    <meta
+      property="twitter:description"
+      content="A small little website that lets you change the background image of JMSS time"
+    />
+    <meta
+      property="twitter:image"
+      content="https://jmss-time.github.io/custom-image/og.png"
+    />
+  </head>
+  <body class="bg-gray-900">
+    <!-- partial:index.partial.html -->
+    <div class="w-screen h-screen sm:flex sm:items-center bg-gray-900">
+      <div class="w-full max-w-xl mx-auto p-4">
+        <div class="bg-gray-200 p-4 rounded shadow text-xl text-gray-900">
+          <h1 class="text-4xl font-bold">
+            JMSS Time
+            <span class="text-4xl font-thin text-gray-900">Custom Image</span>
+          </h1>
 
-			</p>
-			<label class="cursor-pointer">
-				<div class=" mb-2 bg-gray-300 w-full py-2 rounded-lg text-center hover:bg-gray-400">
-					<span>Select an image</span>
-					<input type="file" id="files" name="files" class="bg-gray-400 hidden" />
-				</div>
-				
-			</label>
+          <p class="mb-4"></p>
+          <label class="cursor-pointer">
+            <div
+              class="mb-2 bg-gray-300 w-full py-2 rounded-lg text-center hover:bg-gray-400"
+            >
+              <span>Select an image</span>
+              <input
+                type="file"
+                id="files"
+                name="files"
+                class="bg-gray-400 hidden"
+              />
+            </div>
+          </label>
 
-			<div class="text-center mb-2">
-				or
-			</div>
-			<label class="cursor-pointer mb-4">
-					
-					<input id="urlInput" placeholder="Enter a URL..." type="text" class=" mb-4 bg-gray-300 w-full py-2 rounded-lg text-center hover:bg-gray-400" />
-			</label>
-			<a id="goLink">
-				<div class=" text-center bg-red-600 hover:bg-red-700 text-white font-medium py-2 rounded-lg " id="goButton">
-					<span id="buttonText">Need more information!</span>
-				</div>
-			</a>
-			
-		</div>
-		<div class="text-center text-gray-600">
-			note: images are uploaded to an external server (imgur).
-		</div>
-	</div>
+          <div class="text-center mb-2">
+            or
+          </div>
+          <label class="cursor-pointer mb-4">
+            <input
+              id="urlInput"
+              placeholder="Enter a URL..."
+              type="text"
+              class="mb-4 bg-gray-300 w-full py-2 rounded-lg text-center hover:bg-gray-400"
+            />
+          </label>
+          <a id="goLink">
+            <div
+              class="text-center bg-red-600 hover:bg-red-700 text-white font-medium py-2 rounded-lg"
+              id="goButton"
+            >
+              <span id="buttonText">Need more information!</span>
+            </div>
+          </a>
+        </div>
+        <div class="text-center text-gray-600">
+          note: images are uploaded to an external server (imgur).
+        </div>
+      </div>
 
-	<div class="text-center text-gray-600 fixed bottom-0 left-0 right-0 p-4 text-sm ">
-		created by <a href="https://darcylf.me" class="underline">darcylf</a>
-	</div>
-	
-	
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-  <script  src="./script.js"></script>
-
-</body>
+      <!-- <div
+        class="text-center text-gray-600 fixed bottom-0 left-0 right-0 p-4 text-sm"
+      >
+        created by <a href="https://darcylf.me" class="underline">darcylf</a>
+      </div> -->
+    </div>
+    <!-- partial -->
+    <a href="https://darcylf.me" rel="noopener noreferrer" target="_blank"
+      ><img
+        src="https://cdn.darcylf.me/darcy_badge/on-dark-hover.svg"
+        alt="Made by Darcy Lugt-Falk"
+        class="is-darcy-badge"
+    /></a>
+    <style>
+      .is-darcy-badge {
+        width: 14em;
+        opacity: 0.397;
+        filter: alpha(opacity=39);
+		filter: grayscale(100%);
+		position: fixed;
+		
+		bottom:1em;
+		right:0em
+      }
+      .is-darcy-badge:hover {
+        -moz-transition: all linear 0.15s;
+        transition: all linear 0.15s;
+        width: 14em;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        filter: grayscale(0%);
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
